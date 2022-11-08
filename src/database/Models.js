@@ -84,6 +84,8 @@ Client.hasMany(Menu)
 Menu.belongsTo(Client)
 Menu.hasMany(Product);
 Product.belongsTo(Menu);
+Menu.hasOne(Qrcode);
+Qrcode.belongsTo(Menu)
 
 export {
   Client,
