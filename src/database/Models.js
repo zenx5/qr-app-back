@@ -74,6 +74,9 @@ const Menu = database.define('Menus', {
   },
   currency: {
     type: DataTypes.STRING
+  },
+  token: {
+    type: DataTypes.STRING
   }
 }, {
   // Other model options go here
