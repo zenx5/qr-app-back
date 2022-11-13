@@ -77,6 +77,21 @@ const Menu = database.define('Menus', {
   },
   token: {
     type: DataTypes.STRING
+  },
+  background:{
+    type: DataTypes.STRING
+  },
+  colorTitle:{
+    type: DataTypes.STRING
+  },
+  sizeTitle:{
+    type: DataTypes.STRING
+  },
+  colorItem:{
+    type: DataTypes.STRING
+  },
+  sizeItem:{
+    type: DataTypes.STRING
   }
 }, {
   // Other model options go here
